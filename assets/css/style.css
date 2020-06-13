@@ -120,13 +120,19 @@ table {
   
   th, td {
     padding: 8px;
-    text-align: center;
     border-bottom: 1px solid #282b29;
   }
 
+.tableft{
+text-align: left;
+}
+
+.tabright{
+text-align: right;
+}
 .secimg2{
     width: 100px;
-    padding-left: 85%;
+    padding-left: 75%;
     padding-bottom: 10%;
 }
 
@@ -143,7 +149,7 @@ font-size: 53px;
 .sec3p{
     font-size: 10px;
     padding-left: 85%;
-    padding-top: 10%;
+    padding-top: 8%;
     padding-bottom: 10%;
 }
 
@@ -151,4 +157,60 @@ font-size: 53px;
     width:350px;
     font-size: 10px;
     padding-left: 10%;
+    padding-bottom:10%;
+}
+
+.newdiv1{
+   width:500px;
+   padding-left: 10%;
+   font-weight: 100;
+   
+}
+
+.newdiv2{
+    width:500px;
+
+}
+
+.class{
+    display: flex;
+}
+
+.sec4p{
+    padding-top:10%;
+    padding-left: 10%;
+}
+
+#sec4 h1{
+
+    font-size: 100px;
+}
+
+.sec4pp{
+    width:400px;
+    margin: 10% 45%;
+}
+
+nav{
+    padding-bottom: 10%;
+}
+
+nav ul{
+    list-style: none;
+    text-align: right;
+    padding:10px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+color: #1d8883;
+
+}
+
+a:hover{
+    text-decoration: underline;
 }
