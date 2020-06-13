@@ -1,0 +1,154 @@
+/* assets(
+colors: 
+Farben: #002a5a, #efe8d7, #F4C4C4, #282b29, #7d2222, #DEB873, #D2D2D2, #1d8883
+) */
+
+*{
+    margin-bottom: 0;
+    margin-top:0;
+   
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(../font/Athene.otf)
+  }
+
+h1{
+    font-family: myFirstfont;
+    font-weight: 500;
+}
+
+
+#head1 {
+    background-color:#efe8d7 ;
+    color: #282b29;
+    border-bottom: 1px solid #282b29;
+    display: flex;
+    padding: 10px;
+    font-weight: 100;
+    font-size: smaller;
+}
+
+.heada{
+    padding-left: 10%;
+}
+.headb{
+    padding-left: 60%;
+}
+
+#sec1{
+    color: #002a5a;
+    background-color: #efe8d7;
+    text-align: center;
+}
+
+#sec2{
+    background-color: #F4C4C4;
+}
+
+#sec3{
+    background-color: #DEB873;
+    color:#7d2222;
+
+}
+#sec4{
+    background-color: #D2D2D2;
+    color:#1d8883;
+}
+.sec1a{
+    font-size: 70px;
+    border-bottom: 1px solid #282b29;
+    margin-left:15%;
+    margin-right:15%;
+    padding-top: 30px;
+    
+}
+
+.sec1b{
+    font-size: 70px;
+    border-bottom: 1px solid #282b29;
+    margin-left:15%;
+    margin-right:15%;
+
+}
+
+.secimg{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.secimg img{
+    width: 250px;
+}
+
+.sec1p{
+    padding-bottom: 10%;
+}
+
+.sec1p span{
+    font-style: italic;
+}
+
+#sec2 p{
+    padding-left:10%;
+    padding-top:10%;
+    font-size: 10px;
+}
+
+#sec2 h1{
+
+    font-size: 100px;
+    
+}
+
+#sec2 p{
+    width: 300px;
+    color: #282b29;
+    letter-spacing: 1px;
+    line-height: 15px;
+    padding-left:55%;
+    padding-bottom: 5%;
+    padding-top:1%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 500px;
+    
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #282b29;
+  }
+
+.secimg2{
+    width: 100px;
+    padding-left: 85%;
+    padding-bottom: 10%;
+}
+
+#tab{
+    padding-left: 35%;
+    padding-bottom: 10%;
+}
+
+.sec3h{
+text-align:right;
+font-size: 53px;
+}
+
+.sec3p{
+    font-size: 10px;
+    padding-left: 85%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+#sec3pp{
+    width:350px;
+    font-size: 10px;
+    padding-left: 10%;
+}
