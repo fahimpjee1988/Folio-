@@ -3,16 +3,20 @@ colors:
 Farben: #002a5a, #efe8d7, #F4C4C4, #282b29, #7d2222, #DEB873, #D2D2D2, #1d8883
 ) */
 
+@font-face {
+    font-family: myFonts;
+    src: url(../font/Athene.otf);
+  }
+
+
 *{
     margin-bottom: 0;
     margin-top:0;
-   
+  font-family: myFonts;
+   font-weight: lighter;
 }
 
-@font-face {
-    font-family: myFirstFont;
-    src: url(../font/Athene.otf)
-  }
+
 
 h1{
     font-family: myFirstfont;
@@ -87,8 +91,10 @@ h1{
 }
 
 .sec1p span{
-    font-style: italic;
+    font-size: smaller;
 }
+
+
 
 #sec2 p{
     padding-left:10%;
@@ -111,6 +117,7 @@ h1{
     padding-bottom: 5%;
     padding-top:1%;
 }
+
 
 table {
     border-collapse: collapse;
@@ -161,16 +168,30 @@ font-size: 53px;
 }
 
 .newdiv1{
-   width:500px;
+   width:400px;
    padding-left: 10%;
-   font-weight: 100;
+   font-size: 24px;
    
 }
 
 .newdiv2{
-    width:500px;
+    width:400px;
+    padding-right: 10%;
+    padding-bottom: 5%;
 
 }
+
+.newdiv3{
+ width:400px;
+ padding-left: 10%;
+ padding-bottom: 15%;
+}
+.newdiv4{
+padding-right: 10%;
+font-size: 24px;
+text-align: right;
+}
+
 
 .class{
     display: flex;
