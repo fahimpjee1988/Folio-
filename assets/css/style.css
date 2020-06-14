@@ -47,7 +47,7 @@ h1{
     text-align: center;
 }
 
-#sec1 span {
+.sec1b span {
     text-decoration: line-through;
     font-weight: lighter;
 }
